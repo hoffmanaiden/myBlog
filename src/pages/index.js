@@ -23,7 +23,8 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <div className={styles.linkContainer}>
-        <Link to='/wheels'>Wheels</Link>
+        <Link to='/wheels'>Wheels</Link><br/>
+        <Link to='https://excalidraw.com/'>excalidraw</Link>
       </div>
 
     </Layout>
